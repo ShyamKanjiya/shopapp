@@ -103,7 +103,7 @@ app.use((error, req, res, next) => {
 
 mongoose.connect(MONGOBD_URI)
     .then(() => {
-        app.listen(8080);
+        app.listen(3000);
         console.log('Connected');
     })
     .catch(err => {
